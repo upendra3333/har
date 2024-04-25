@@ -1,0 +1,92 @@
+body{
+
+    background-color: hsl(0, 0%, 8%);
+}
+
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: color hsl(0, 0%, 8%);
+    height: 100vh;
+    width: 100vw;
+    border-radius: 220px;
+}
+.one{
+   
+
+    height: max-content;
+    width: 400px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.one img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 140px;
+    margin-top: 20px;
+
+}
+
+h1{
+
+
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.two{
+    text-align: center;
+    color: rgb(196,248, 42);
+    font-size: l8px;
+
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.three{
+
+    text-align: center;
+    color: white;
+    
+
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.four{
+    height: 50px;
+    width: 400;
+    background-color: hsl(0, 0%, 20%) ;
+    margin: 30px;
+
+    border-radius: 1cap;
+    color: white;
+    font-weight: 750;
+    text-align: center;
+    display : flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+  
+
+
+}
+
+
+.four:hover{
+
+    background-color:rgb(196,248, 42);
+    
+}

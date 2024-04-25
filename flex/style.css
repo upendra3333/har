@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+   gap: 10px;
+    width: 100vw;
+    height: 100vh;
+   justify-content: center;
+   align-items: start;
+   align-content: start;
+    border: 1px solid black;
+}
+
+.box
+{
+    height: 50px;
+    width: 100px;
+  
+    border: 1px solid orange;
+    background-color:yellow;
+    color: white;
+}

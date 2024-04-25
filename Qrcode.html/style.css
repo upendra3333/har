@@ -1,0 +1,19 @@
+@import url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+@import url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+body{
+    font-size: 15px;
+          font-family: "Figtree", sans-serif;
+        box-sizing: border-box;
+        
+    }
+    
+    .main{
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+        
+    

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLR Registration Form</title>
+</head>
+<body>
+    <h2>LLR Registration Form</h2>
+
+    <form action="#" method="post">
+        
+        <label for="name"><strong>Name:</strong></label><br>
+        
+        <input type="text" placeholder="Enter your name" id="name" name="name" ><br>
+        
+        <label for="age"><strong>Age:</strong></label><br>
+        <input type="number" placeholder="Enter your age"id="age" name="age" ><br>
+        
+        <label for="dob"><strong>Date of Birth:</strong></label><br>
+        <input type="date" id="dob" name="dob" ><br>
+        
+        <label for="email"><b>Email:</b></label><br>
+        <input type="email" placeholder="Enter your email" id="email" name="email" ><br>
+        
+       <p> <label><strong>Gender:</strong></label><br></p>
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        
+      <p>  <label><strong>Types of Vehicles:</strong></label><br></p>
+        <input type="checkbox" id="two_wheeler" name="vehicle_type[]" value="2 wheeler">
+        <label for="two_wheeler">2 Wheeler</label><br>
+        <input type="checkbox" id="four_wheeler" name="vehicle_type[]" value="4 wheeler">
+        <label for="four_wheeler">4 Wheeler</label><br>
+        
+      <p> <label for="vehicle category"><strong>Vehicle Category:</strong></label><br></p>
+        <select id="vehicle Category" name="vehicle category" >
+            <option value="">Select category</option>
+            <option value="Motorcycle">Motorcycle</option>
+            
+            <option value="Car">Car</option>
+            <option value="Truck">Truck</option>
+            
+        </select><br>
+        
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
