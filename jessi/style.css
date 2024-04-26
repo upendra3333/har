@@ -1,25 +1,22 @@
-body{
-
-    background-color: hsl(0, 0%, 8%);
-}
-
-
 .main{
+    background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+background: color hsl(0, 0%, 8%);
+height: 100vh;
+width: 100vw;
+border: 1px;;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: color hsl(0, 0%, 8%);
-    height: 100vh;
-    width: 100vw;
-    border-radius: 220px;
 }
+
 .one{
    
 
     height: max-content;
     width: 400px;
     background-color: hsl(0, 0%, 12%);
+    border-radius: 2cap;
 }
 
 .one img{
@@ -27,7 +24,7 @@ body{
     height: 100px;
     width: 100px;
     margin-left: 140px;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 
