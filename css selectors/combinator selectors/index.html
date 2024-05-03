@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div p{                              /* (space)descendent selector*/
+
+            color: red;
+        }
+
+        h3 >p{              
+            color: aqua;                     /*  (>)child selector*/
+        }
+div + p{
+    color: chartreuse;                        /* (+)adjacent sibbling selectors*/
+}
+
+
+div ~ p{
+
+    color:yellow;               /**(~)general sibbling selector  **/
+}
+
+        
+    </style>
+</head>
+
+<body>
+<div>
+    <p>hi</p>
+    <h1>hello</h1>
+    <p>welcome</p>
+    <h2><p>
+
+        crazy
+    </p></h2>
+</div>
+<p>good bye</p>
+<p>cat</p>
+<p>dog</p>
+<p>tiger</p>
+
+
+    <h3><p>asus</p>
+    vivobook
+    
+    </h1>
+</b>
+
+</body>
+</html>
