@@ -8,42 +8,48 @@ font-weight: 400;
 h1 {
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 700;
+    
 }
 
 .box{
+    
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    padding: 172px 300px ;
+   padding: 172px 300px ;
    
 
 }
 .SEDANS{
-    
-    background: hsl(31, 77%, 52%);
+    flex-basis: auto;
+    background  : hsl(31, 77%, 52%);
     color: #fff;
     padding: 42px 42px;
     font-size: 15px;
-    line-height: 1.8;
+    line-height: 2.0;
     border-radius: 12px 0px 0px 12px;
 
 }
 .suvs {
+    flex-basis: auto;
     background: hsl(184, 100%, 22%);
     color: #fff;
     padding: 42px 42px;
     font-size: 15px;
-    line-height:1.8
+    line-height: 2.0;
+    
+    
     
     
 }
 
 .luxury{
+    flex-basis: auto;
     background: hsl(179, 100%, 13%);
     color: #fff;
     padding: 42px 42px;
     font-size: 15px;
-    line-height: 1.8;
+    line-height: 2.0;
     border-radius: 0px 12px 12px 0px;
  
 }

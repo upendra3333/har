@@ -1,0 +1,85 @@
+body{
+    
+  font-family: sans-serif;
+
+font-weight: 400;
+  background-color: whitesmoke;
+}
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+
+.box{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+ 
+  
+  padding: 170px 300px;
+
+}
+.category{
+  
+    padding: 20px;
+    color: white;
+    
+
+} 
+
+
+.SEDANS{
+  
+  background: hsl(31, 77%, 52%);
+  color: #fff;
+  padding: 42px 42px;
+  font-size: 15px;
+  line-height: 1.8;
+  border-radius: 12px 0px 0px 12px;
+
+}
+.suvs {
+  background: hsl(184, 100%, 22%);
+  color: #fff;
+  padding: 42px 42px;
+  font-size: 15px;
+  line-height: 1.8;
+  
+
+  
+  
+}
+
+.luxury{
+  background: hsl(179, 100%, 13%);
+  color: #fff;
+  padding: 42px 42px;
+  font-size: 15px;
+  line-height: 1.8;
+  border-radius: 0px 12px 12px 0px;
+
+}
+button{
+  
+  margin-top: 20px;
+   padding: 10px 20px;
+  background-color: white;
+  color: black;
+  
+  border:none;
+  border-radius: 2cap;
+  cursor: pointer;
+  font-size: 15px;
+  color:rebeccapurple;
+  margin: 100px 12px 0px;
+  font-family: "Lexend Deca", sans-serif;
+  transition: all 0.5s ease-in-out;
+          
+}
+
+button:hover {
+  color: #fff;
+  background: transparent;
+  border: 1px solid;
+
+}
